@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d76d0502-7854-4362-b21f-43a19824f849" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handworkers/handworker/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/handworkers/handworker/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handworkers/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/handworkers/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handworkers/handworker/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/handworkers/handworker/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handworkers/handworker/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/handworkers/handworker/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +17,17 @@
     <session id="1340693931">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.117" value="1" />
+          <entry key="project.open.time.125" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.39" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3590" />
+          <entry key="py" value="4245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3590" />
+          <entry key="Python" value="4245" />
         </counts>
       </usages-collector>
     </session>
@@ -59,21 +66,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handworkers/handworker/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="1003">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="14" />
               <folding>
-                <marker date="1606807158450" expanded="true" signature="544:545" ph="..." />
-                <marker date="1606807158450" expanded="true" signature="544:549" ph="..." />
+                <marker date="1608227500247" expanded="true" signature="647:648" ph="..." />
+                <marker date="1608227500247" expanded="true" signature="647:652" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handworkers/handworker/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="153">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -85,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/handworkers/handworker/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="46" lean-forward="true" selection-end-line="1" />
+              <caret column="46" selection-end-line="1" />
               <folding>
                 <marker date="1606807271549" expanded="true" signature="178:183" ph="..." />
               </folding>
@@ -96,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handworkers/handworker/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="102">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -105,17 +112,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/handworkers/handworker/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="-204">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1606810026841" expanded="true" signature="541:542" ph="..." />
-                <marker date="1606810026841" expanded="true" signature="541:990" ph="..." />
-                <marker date="1606810026841" expanded="true" signature="541:991" ph="..." />
-                <marker date="1606810026841" expanded="true" signature="541:992" ph="..." />
+                <marker date="1608227522120" expanded="true" signature="541:542" ph="..." />
+                <marker date="1608227522120" expanded="true" signature="541:990" ph="..." />
               </folding>
             </state>
           </provider>
@@ -124,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handworkers/handworkers/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="20" column="1" selection-start-line="18" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="e#635#667#0" expanded="true" />
               </folding>
@@ -149,11 +154,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/handworkers/handworkers/settings.py" />
-        <option value="$PROJECT_DIR$/handworkers/handworker/models.py" />
         <option value="$PROJECT_DIR$/handworkers/handworker/serializer.py" />
-        <option value="$PROJECT_DIR$/handworkers/handworker/views.py" />
         <option value="$PROJECT_DIR$/handworkers/handworker/urls.py" />
         <option value="$PROJECT_DIR$/handworkers/handworker/admin.py" />
+        <option value="$PROJECT_DIR$/handworkers/handworker/models.py" />
+        <option value="$PROJECT_DIR$/handworkers/handworker/views.py" />
       </list>
     </option>
   </component>
@@ -167,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,7 +202,6 @@
         </subPane>
       </pane>
       <pane id="Course" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,11 +236,11 @@
     <frame x="0" y="0" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16913946" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16765578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -243,7 +248,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32874617" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32874617" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -262,37 +267,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handworkers/handworker/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1606810026841" expanded="true" signature="541:542" ph="..." />
-            <marker date="1606810026841" expanded="true" signature="541:990" ph="..." />
-            <marker date="1606810026841" expanded="true" signature="541:991" ph="..." />
-            <marker date="1606810026841" expanded="true" signature="541:992" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handworkers/handworker/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/handworkers/handworker/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="1003">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="14" />
           <folding>
-            <marker date="1606807158450" expanded="true" signature="544:545" ph="..." />
-            <marker date="1606807158450" expanded="true" signature="544:549" ph="..." />
+            <marker date="1608227500247" expanded="true" signature="647:648" ph="..." />
+            <marker date="1608227500247" expanded="true" signature="647:652" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handworkers/handworker/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -300,29 +291,41 @@
     <entry file="file://$PROJECT_DIR$/handworkers/handworker/serializer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="46" lean-forward="true" selection-end-line="1" />
+          <caret column="46" selection-end-line="1" />
           <folding>
             <marker date="1606807271549" expanded="true" signature="178:183" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/handworkers/handworker/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/handworkers/handworkers/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="20" column="1" selection-start-line="18" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="e#635#667#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handworkers/handworker/admin.py">
+    <entry file="file://$PROJECT_DIR$/handworkers/handworker/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="-204">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1608227522120" expanded="true" signature="541:542" ph="..." />
+            <marker date="1608227522120" expanded="true" signature="541:990" ph="..." />
           </folding>
         </state>
       </provider>

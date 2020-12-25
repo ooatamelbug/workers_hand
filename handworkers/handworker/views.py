@@ -23,4 +23,34 @@ def home(request):
             return JsonResponse(data, safe=False, status=status.HTTP_404_NOT_FOUND)
 
 
+@api_view(['GET'])
+def getallworkers(request):
+    if request.method == 'GET':
+        page_skip = None
+        if request.query_params['page'] > 1:
+            page_skip = 20 * request.query_params['page']
+        data_workers = Workers.objects.order_by('-id')[
+            page_skip,
+            20
+        ].get(is_aviable=True)
+        if len(data_workers) > 0:
+            data_rest = WorkersSerializer(data_workers, many=True)
+            data = {'message': 'data', 'data': data_rest}
+            return JsonResponse(data, safe=False, status=status.HTTP_200_OK)
+        else:
+            data = {'message': 'no data', 'data': []}
+            return JsonResponse(data, safe=False, status=status.HTTP_404_NOT_FOUND)
+
+
+@api_view(['GET'])
+def getworker(request, pk):
+    if request.method == 'GET':
+        data_worker = Workers.objects.order_by('-id').get(id=pk)
+        if len(data_worker) > 0:
+            data_rest = WorkersSerializer(data_worker)
+            data = {'message': 'data', 'data': data_rest}
+            return JsonResponse(data, safe=False, status=status.HTTP_200_OK)
+        else:
+            data = {'message': 'no data', 'data': []}
+            return JsonResponse(data, safe=False, status=status.HTTP_404_NOT_FOUND)
 
